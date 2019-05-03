@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush.schema.json",
+  "rushVersion": "5.5.4",
+  "pnpmVersion": "2.15.1",
+  "nodeSupportedVersionRange": ">=8.9.4",
+  "projectFolderMinDepth": 2,
+  "projects": [
+    {
+      "packageName": "2.4-office-ui-fabric-react-test",
+      "projectFolder": "tests/2.4"
+    },
+    {
+      "packageName": "2.7-office-ui-fabric-react-test",
+      "projectFolder": "tests/2.7"
+    },
+    {
+      "packageName": "2.9-office-ui-fabric-react-test",
+      "projectFolder": "tests/2.9"
+    },
+    {
+      "packageName": "3.0-office-ui-fabric-react-test",
+      "projectFolder": "tests/3.0"
+    },
+    {
+      "packageName": "3.1-office-ui-fabric-react-test",
+      "projectFolder": "tests/3.1"
+    },
+    {
+      "packageName": "3.2-office-ui-fabric-react-test",
+      "projectFolder": "tests/3.2"
+    },
+    {
+      "packageName": "3.3-office-ui-fabric-react-test",
+      "projectFolder": "tests/3.3"
+    },
+    {
+      "packageName": "3.4-office-ui-fabric-react-test",
+      "projectFolder": "tests/3.4"
+    }
+  ]
+}

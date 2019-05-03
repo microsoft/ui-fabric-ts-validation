@@ -1,0 +1,410 @@
+dependencies:
+  '@rush-temp/2.4-office-ui-fabric-react-test': 'file:projects/2.4-office-ui-fabric-react-test.tgz'
+  '@rush-temp/2.7-office-ui-fabric-react-test': 'file:projects/2.7-office-ui-fabric-react-test.tgz'
+  '@rush-temp/2.9-office-ui-fabric-react-test': 'file:projects/2.9-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.0-office-ui-fabric-react-test': 'file:projects/3.0-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.1-office-ui-fabric-react-test': 'file:projects/3.1-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.2-office-ui-fabric-react-test': 'file:projects/3.2-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.3-office-ui-fabric-react-test': 'file:projects/3.3-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.4-office-ui-fabric-react-test': 'file:projects/3.4-office-ui-fabric-react-test.tgz'
+  '@types/node': 8.5.8
+  '@types/react': 16.3.16
+  '@types/react-dom': 16.0.5
+  tslib: 1.9.3
+  tslint-microsoft-contrib: 6.1.0
+packages:
+  /@types/node/8.5.8:
+    dev: false
+    resolution:
+      integrity: sha512-8KmlRxwbKZfjUHFIt3q8TF5S2B+/E5BaAoo/3mgc5h6FJzqxXkCK/VMetO+IRDtwtU6HUvovHMBn+XRj7SV9Qg==
+  /@types/react-dom/16.0.5:
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+    dev: false
+    resolution:
+      integrity: sha512-ony2hEYlGXCLWNAWWgbsHR7qVvDbeMRFc5b43+7dhj3n+zXzxz81HV9Yjpc3JD8vLCiwYoSLqFCI6bD0+0zG2Q==
+  /@types/react/16.3.16:
+    dependencies:
+      csstype: 2.6.4
+    dev: false
+    resolution:
+      integrity: sha512-fM7YX3Q9a915DXi8T06F8906bWv19sbkVO+k5PUYRIWXU2PINLEHbMMGgySem2phwF6En0+HGI6MOrobp+Ya1g==
+  /csstype/2.6.4:
+    dev: false
+    resolution:
+      integrity: sha512-lAJUJP3M6HxFXbqtGRc0iZrdyeN+WzOWeY0q/VnFzI+kqVrYIzC7bWlKqCW7oCIdzoPkvfp82EVvrTlQ8zsWQg==
+  /tslib/1.9.3:
+    dev: false
+    resolution:
+      integrity: sha512-4krF8scpejhaOgqzBEcGM7yDIEfi0/8+8zDRZhNZZ2kjmHJ4hv3zCbQWxoJGz1iw5U0Jl0nma13xzHXcncMavQ==
+  /tslint-microsoft-contrib/6.1.0:
+    dependencies:
+      tsutils: 2.28.0
+    dev: false
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@2.4.2:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@2.4.2
+      typescript: 2.4.2
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@2.7.2:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@2.7.2
+      typescript: 2.7.2
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@2.9.2:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@2.9.2
+      typescript: 2.9.2
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@3.0.3:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@3.0.3
+      typescript: 3.0.3
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@3.1.6:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@3.1.6
+      typescript: 3.1.6
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@3.2.4:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@3.2.4
+      typescript: 3.2.4
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@3.3.4000:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@3.3.4000
+      typescript: 3.3.4000
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tslint-microsoft-contrib/6.1.0/typescript@3.4.5:
+    dependencies:
+      tsutils: /tsutils/2.28.0/typescript@3.4.5
+      typescript: 3.4.5
+    dev: false
+    id: registry.npmjs.org/tslint-microsoft-contrib/6.1.0
+    peerDependencies:
+      tslint: ^5.1.0
+      typescript: ^2.1.0 || ^3.0.0
+    resolution:
+      integrity: sha512-8DgmiPTgNQSYTjrKKv/h1aHnDd7EkGAjTxatrjfSDp5jUXENGI7Qj7qi7T8xBdTZN9Z3nb80u0NhdBBOMcQFHg==
+  /tsutils/2.28.0:
+    dependencies:
+      tslib: 1.9.3
+    dev: false
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@2.4.2:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 2.4.2
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@2.7.2:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 2.7.2
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@2.9.2:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 2.9.2
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@3.0.3:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 3.0.3
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@3.1.6:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 3.1.6
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@3.2.4:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 3.2.4
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@3.3.4000:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 3.3.4000
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /tsutils/2.28.0/typescript@3.4.5:
+    dependencies:
+      tslib: 1.9.3
+      typescript: 3.4.5
+    dev: false
+    id: registry.npmjs.org/tsutils/2.28.0
+    peerDependencies:
+      typescript: '>=2.1.0 || >=2.1.0-dev || >=2.2.0-dev || >=2.3.0-dev || >=2.4.0-dev || >=2.5.0-dev || >=2.6.0-dev || >=2.7.0-dev || >=2.8.0-dev || >=2.9.0-dev || >= 3.0.0-dev || >= 3.1.0-dev'
+    resolution:
+      integrity: sha512-bh5nAtW0tuhvOJnx1GLRn5ScraRLICGyJV5wJhtRWOLsxW70Kk5tZtpK3O/hW6LDnqKS9mlUMPZj9fEMJ0gxqA==
+  /typescript/2.4.2:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha1-+DlfhdRZJ2BnyYiqQYN6j4KHCEQ=
+  /typescript/2.7.2:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-p5TCYZDAO0m4G344hD+wx/LATebLWZNkkh2asWUFqSsD2OrDNhbAHuSjobrmsUmdzjJjEeZVU9g1h3O6vpstnw==
+  /typescript/2.9.2:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-Gr4p6nFNaoufRIY4NMdpQRNmgxVIGMs4Fcu/ujdYk3nAZqk7supzBE9idmvfZIlH/Cuj//dvi+019qEue9lV0w==
+  /typescript/3.0.3:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-kk80vLW9iGtjMnIv11qyxLqZm20UklzuR2tL0QAnDIygIUIemcZMxlMWudl9OOt76H3ntVzcTiddQ1/pAAJMYg==
+  /typescript/3.1.6:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-tDMYfVtvpb96msS1lDX9MEdHrW4yOuZ4Kdc4Him9oU796XldPYF/t2+uKoX0BBa0hXXwDlqYQbXY5Rzjzc5hBA==
+  /typescript/3.2.4:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-0RNDbSdEokBeEAkgNbxJ+BLwSManFy9TeXz8uW+48j/xhEXv1ePME60olyzw2XzUqUBNAYFeJadIqAgNqIACwg==
+  /typescript/3.3.4000:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-jjOcCZvpkl2+z7JFn0yBOoLQyLoIkNZAs/fYJkUG6VKy6zLPHJGfQJYFHzibB6GJaF/8QrcECtlQ5cpvRHSMEA==
+  /typescript/3.4.5:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-YycBxUb49UUhdNMU5aJ7z5Ej2XGmaIBL0x34vZ82fn3hGvD+bgrMrVDpatgz2f7YxUMJxMkbWxJZeAvDxVe7Vw==
+  'file:projects/2.4-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@2.4.2
+      typescript: 2.4.2
+    dev: false
+    name: '@rush-temp/2.4-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-W3NQVIEu314FcUIhjzkcmJdejbFmlRcxE47lNYo4yMD0J5C/L1RXXaXbwnB/CF7smwtySQMV3qXkm227LVDCpA==
+      tarball: 'file:projects/2.4-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/2.7-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@2.7.2
+      typescript: 2.7.2
+    dev: false
+    name: '@rush-temp/2.7-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-b1R1T+TIxdUDomY0yBCcTS3wXdc5MPxSmsjtA7giI+zTCXC55SfIkTv4kfk9SH8L7igWiIjc+/94EpXNMn1Isw==
+      tarball: 'file:projects/2.7-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/2.9-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@2.9.2
+      typescript: 2.9.2
+    dev: false
+    name: '@rush-temp/2.9-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-0tYE7iuR8c5ehFstyjBrz1xrIij52IhX/sxLZ5lLvU7nLvR09CzyNu1aqMxkH9FLIgXPTXacB9Nsf5cN+hkxew==
+      tarball: 'file:projects/2.9-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/3.0-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@3.0.3
+      typescript: 3.0.3
+    dev: false
+    name: '@rush-temp/3.0-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-pkc6LJoUIPs4dWW+N8dMuu65SSSPG3bGVn5bdP0RBby/tGog68czTCjWocRyM1it3WNEIrOQb/hsv/yOgtclnA==
+      tarball: 'file:projects/3.0-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/3.1-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@3.1.6
+      typescript: 3.1.6
+    dev: false
+    name: '@rush-temp/3.1-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-8cRH6/0ZDuCXehNK44nX3TngyVu3CicCQbmvZ8I8LExV5zpgYO607jxaZBqCJjbl8lmQ1Ac2cHLr2sGj1GhtxQ==
+      tarball: 'file:projects/3.1-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/3.2-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@3.2.4
+      typescript: 3.2.4
+    dev: false
+    name: '@rush-temp/3.2-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-hwp/oUsFPpQNsWkz/z50QrRtm9xtbHyDEuAun5RwNJ2jMIt1p3SNKnYLwkn5rk9DF40Om6yeKqZbAHqHcHmxNg==
+      tarball: 'file:projects/3.2-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/3.3-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@3.3.4000
+      typescript: 3.3.4000
+    dev: false
+    name: '@rush-temp/3.3-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-ot0ziVopGteKtyTk8b7p4sPnF8G9TAxQK0T79Hp1ezlNVblMKlzGEhHyKso9zEFw+NEYlJdphK0ehGg7pQtWAA==
+      tarball: 'file:projects/3.3-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/3.4-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      tslint-microsoft-contrib: /tslint-microsoft-contrib/6.1.0/typescript@3.4.5
+      typescript: 3.4.5
+    dev: false
+    name: '@rush-temp/3.4-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-6oewG80vV6amF/T8/pbc4JLX4BbUCPechNuJiN3C9F/po6qAKMsOzrf1bMO7sc8YmVdJ5dcqe312+l/juQvAwA==
+      tarball: 'file:projects/3.4-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+registry: 'https://registry.npmjs.org/'
+shrinkwrapMinorVersion: 9
+shrinkwrapVersion: 3
+specifiers:
+  '@rush-temp/2.4-office-ui-fabric-react-test': 'file:./projects/2.4-office-ui-fabric-react-test.tgz'
+  '@rush-temp/2.7-office-ui-fabric-react-test': 'file:./projects/2.7-office-ui-fabric-react-test.tgz'
+  '@rush-temp/2.9-office-ui-fabric-react-test': 'file:./projects/2.9-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.0-office-ui-fabric-react-test': 'file:./projects/3.0-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.1-office-ui-fabric-react-test': 'file:./projects/3.1-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.2-office-ui-fabric-react-test': 'file:./projects/3.2-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.3-office-ui-fabric-react-test': 'file:./projects/3.3-office-ui-fabric-react-test.tgz'
+  '@rush-temp/3.4-office-ui-fabric-react-test': 'file:./projects/3.4-office-ui-fabric-react-test.tgz'
+  '@types/node': 8.5.8
+  '@types/react': 16.3.16
+  '@types/react-dom': 16.0.5
+  tslib: 1.9.3
+  tslint-microsoft-contrib: 6.1.0

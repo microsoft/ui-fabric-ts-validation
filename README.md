@@ -1,7 +1,23 @@
+# ui-fabric-ts-validation
+
+This repository is used to build Microsoft's [office-ui-fabric-react](https://github.com/OfficeDev/office-ui-fabric-react) library against a set of [TypeScript](https://github.com/Microsoft/typescript) versions to ensure compatibility.
+
+## TypeScript Versions
+
+Below is the set of TypeScript versions available for validation:
+
+- 2.4
+- 2.7
+- 2.9
+- 3.0
+- 3.1
+- 3.2
+- 3.3
+- 3.4
 
 # Contributing
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
+This repo welcomes contributions and suggestions.  Most contributions require you to agree to a
 Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
 the rights to use your contribution. For details, visit https://cla.microsoft.com.
 
@@ -9,6 +25,6 @@ When you submit a pull request, a CLA-bot will automatically determine whether y
 a CLA and decorate the PR appropriately (e.g., label, comment). Simply follow the instructions
 provided by the bot. You will only need to do this once across all repos using our CLA.
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
+This repo has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
 For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
 contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
