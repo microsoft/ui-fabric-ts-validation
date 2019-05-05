@@ -1,0 +1,4 @@
+.github/CODEOWNERS @kevintcoughlin
+common/config/**/* @kevintcoughlin
+
+**/* @kevintcoughlin
