@@ -1,4 +1,4 @@
-.github/CODEOWNERS @kevintcoughlin
-common/config/**/* @kevintcoughlin
+.github/CODEOWNERS @kevintcoughlin @aditima
+common/config/**/* @kevintcoughlin @aditima
 
-**/* @kevintcoughlin
+**/* @kevintcoughlin @aditima
