@@ -15,6 +15,15 @@ Below is the set of TypeScript versions available for validation:
 - 3.3
 - 3.4
 
+## Test locally
+
+To run the test suite locally, run the following commands:
+
+1. From the repository root, run `rush install-fabric` to add latest `office-ui-fabric-react` to `package.json` files.
+1. Then run `rush update` to update Rush's `shrinkwrap.yaml` file.
+1. Finally, run the test suite with the following command `rush test`.
+1. The test suite results will be output to the console.
+
 # Contributing
 
 This repo welcomes contributions and suggestions.  Most contributions require you to agree to a

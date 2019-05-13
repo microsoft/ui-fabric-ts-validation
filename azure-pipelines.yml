@@ -1,0 +1,65 @@
+trigger:
+  branches:
+    include:
+      - master
+
+pr:
+  branches:
+    include:
+      - master
+
+variables:
+  - name: NodeVersion
+    value: '10.x'
+
+jobs:
+  - job: Compatibility
+    steps:
+      - checkout: self
+        clean: true
+
+      - task: NodeTool@0
+        displayName: 'Use Node $(NodeVersion)'
+        inputs:
+          versionSpec: '$(NodeVersion)'
+          checkLatest: true
+
+      # Run Rush install
+      - script: |
+          node common/scripts/install-run-rush.js install
+        displayName: Run rush install
+
+      # Add office-ui-fabric-react as dependency to test projects
+      - script: |
+          node common/scripts/install-run-rush.js install-fabric
+        displayName: Add office-ui-fabric-react to package.json files
+
+      # Update Rush's shrinkwrap file
+      - script: |
+          node common/scripts/install-run-rush.js update
+        displayName: Run rush update
+
+      # Run tests that should succeed
+      - script: |
+          node common/scripts/install-run-rush.js test --to 2.9-office-ui-fabric-react-test
+        displayName: Run rush test for 2.9-office-ui-fabric-react-test
+
+      - script: |
+          node common/scripts/install-run-rush.js test --to 3.0-office-ui-fabric-react-test
+        displayName: Run rush test for 3.0-office-ui-fabric-react-test
+
+      - script: |
+          node common/scripts/install-run-rush.js test --to 3.1-office-ui-fabric-react-test
+        displayName: Run rush test for 3.1-office-ui-fabric-react-test
+
+      - script: |
+          node common/scripts/install-run-rush.js test --to 3.2-office-ui-fabric-react-test
+        displayName: Run rush test for 3.2-office-ui-fabric-react-test
+
+      - script: |
+          node common/scripts/install-run-rush.js test --to 3.3-office-ui-fabric-react-test
+        displayName: Run rush test for 3.3-office-ui-fabric-react-test
+
+      - script: |
+          node common/scripts/install-run-rush.js test --to 3.4-office-ui-fabric-react-test
+        displayName: Run rush test for 3.4-office-ui-fabric-react-test

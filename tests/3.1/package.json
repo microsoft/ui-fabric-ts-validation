@@ -6,7 +6,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "test": "tsc"
+    "install-fabric": "npm install --save --package-lock-only --no-package-lock office-ui-fabric-react",
+    "test": "node ./node_modules/typescript/bin/tsc -p ./tsconfig.json"
   },
   "dependencies": {
     "@types/node": "8.5.8"
