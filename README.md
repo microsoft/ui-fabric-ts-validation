@@ -1,5 +1,7 @@
 # ui-fabric-ts-validation
 
+[![Build Status](https://dev.azure.com/RushStack/Gearbox%20GitHub%20Projects/_apis/build/status/ui-fabric-ts-validation/microsoft.ui-fabric-ts-validation?branchName=master)](https://dev.azure.com/RushStack/Gearbox%20GitHub%20Projects/_build/latest?definitionId=15&branchName=master)
+
 This repository is used to build Microsoft's [office-ui-fabric-react](https://github.com/OfficeDev/office-ui-fabric-react) library against a set of [TypeScript](https://github.com/Microsoft/typescript) versions to ensure compatibility.
 
 ## TypeScript Versions
