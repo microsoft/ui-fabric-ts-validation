@@ -15,7 +15,7 @@ Below is the set of TypeScript versions available for validation:
 - 3.3
 - 3.4
 
-## Test locally
+## Test
 
 To run the test suite locally, run the following commands:
 
