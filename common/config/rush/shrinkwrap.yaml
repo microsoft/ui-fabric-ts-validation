@@ -1,6 +1,7 @@
 dependencies:
   '@rush-temp/2.4-office-ui-fabric-react-test': 'file:projects/2.4-office-ui-fabric-react-test.tgz'
   '@rush-temp/2.7-office-ui-fabric-react-test': 'file:projects/2.7-office-ui-fabric-react-test.tgz'
+  '@rush-temp/2.8-office-ui-fabric-react-test': 'file:projects/2.8-office-ui-fabric-react-test.tgz'
   '@rush-temp/2.9-office-ui-fabric-react-test': 'file:projects/2.9-office-ui-fabric-react-test.tgz'
   '@rush-temp/3.0-office-ui-fabric-react-test': 'file:projects/3.0-office-ui-fabric-react-test.tgz'
   '@rush-temp/3.1-office-ui-fabric-react-test': 'file:projects/3.1-office-ui-fabric-react-test.tgz'
@@ -11,6 +12,7 @@ dependencies:
   '@types/react': 16.3.16
   '@types/react-dom': 16.0.5
   tslib: 1.9.3
+  typescript: 2.4.2
 packages:
   /@types/node/8.5.8:
     dev: false
@@ -51,6 +53,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-p5TCYZDAO0m4G344hD+wx/LATebLWZNkkh2asWUFqSsD2OrDNhbAHuSjobrmsUmdzjJjEeZVU9g1h3O6vpstnw==
+  /typescript/2.8.4:
+    dev: false
+    engines:
+      node: '>=4.2.0'
+    hasBin: true
+    resolution:
+      integrity: sha512-IIU5cN1mR5J3z9jjdESJbnxikTrEz3lzAw/D0Tf45jHpBp55nY31UkUvmVHoffCfKHTqJs3fCLPDxknQTTFegQ==
   /typescript/2.9.2:
     dev: false
     engines:
@@ -118,6 +127,19 @@ packages:
     resolution:
       integrity: sha512-nTNLPXNM+dkOqGtnbk3OweI0bqxlBeQspUYtWu1r2JcItbewWqZDU5DqQhspVik3HxdxyZfbP4+OZD44ibipjg==
       tarball: 'file:projects/2.7-office-ui-fabric-react-test.tgz'
+    version: 0.0.0
+  'file:projects/2.8-office-ui-fabric-react-test.tgz':
+    dependencies:
+      '@types/node': 8.5.8
+      '@types/react': 16.3.16
+      '@types/react-dom': 16.0.5
+      tslib: 1.9.3
+      typescript: 2.8.4
+    dev: false
+    name: '@rush-temp/2.8-office-ui-fabric-react-test'
+    resolution:
+      integrity: sha512-mGKYMkwFOo9tfT5XdZnGs5QHa+9FQxEI37Gtt1mk+URZHD8pXnKLYn5SFY+Yh005k4aQ9InlXxTtLN6OAHvRzQ==
+      tarball: 'file:projects/2.8-office-ui-fabric-react-test.tgz'
     version: 0.0.0
   'file:projects/2.9-office-ui-fabric-react-test.tgz':
     dependencies:
@@ -203,6 +225,7 @@ shrinkwrapVersion: 3
 specifiers:
   '@rush-temp/2.4-office-ui-fabric-react-test': 'file:./projects/2.4-office-ui-fabric-react-test.tgz'
   '@rush-temp/2.7-office-ui-fabric-react-test': 'file:./projects/2.7-office-ui-fabric-react-test.tgz'
+  '@rush-temp/2.8-office-ui-fabric-react-test': 'file:./projects/2.8-office-ui-fabric-react-test.tgz'
   '@rush-temp/2.9-office-ui-fabric-react-test': 'file:./projects/2.9-office-ui-fabric-react-test.tgz'
   '@rush-temp/3.0-office-ui-fabric-react-test': 'file:./projects/3.0-office-ui-fabric-react-test.tgz'
   '@rush-temp/3.1-office-ui-fabric-react-test': 'file:./projects/3.1-office-ui-fabric-react-test.tgz'
@@ -213,3 +236,4 @@ specifiers:
   '@types/react': 16.3.16
   '@types/react-dom': 16.0.5
   tslib: 1.9.3
+  typescript: ~2.4.2
