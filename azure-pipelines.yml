@@ -41,6 +41,10 @@ jobs:
 
       # Run tests that should succeed
       - script: |
+          node common/scripts/install-run-rush.js test --to 2.8-office-ui-fabric-react-test
+        displayName: Run rush test for 2.8-office-ui-fabric-react-test
+
+      - script: |
           node common/scripts/install-run-rush.js test --to 2.9-office-ui-fabric-react-test
         displayName: Run rush test for 2.9-office-ui-fabric-react-test
 
