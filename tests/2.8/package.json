@@ -1,0 +1,21 @@
+{
+  "name": "2.8-office-ui-fabric-react-test",
+  "version": "1.0.0",
+  "description": "Sample project to test 2.8 tsc compatibility of office-ui-fabric-react",
+  "main": "lib/index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "install-fabric": "npm install --save --package-lock-only --no-package-lock office-ui-fabric-react",
+    "test": "node ./node_modules/typescript/bin/tsc -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@types/node": "8.5.8"
+  },
+  "devDependencies": {
+    "@types/react": "16.3.16",
+    "@types/react-dom": "16.0.5",
+    "tslib": "1.9.3",
+    "typescript": "~2.8.4"
+  }
+}
