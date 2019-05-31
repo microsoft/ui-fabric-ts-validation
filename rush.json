@@ -40,6 +40,10 @@
     {
       "packageName": "3.4-office-ui-fabric-react-test",
       "projectFolder": "tests/3.4"
+    },
+    {
+      "packageName": "3.5-office-ui-fabric-react-test",
+      "projectFolder": "tests/3.5"
     }
   ]
 }
