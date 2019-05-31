@@ -67,3 +67,7 @@ jobs:
       - script: |
           node common/scripts/install-run-rush.js test --to 3.4-office-ui-fabric-react-test
         displayName: Run rush test for 3.4-office-ui-fabric-react-test
+
+      - script: |
+          node common/scripts/install-run-rush.js test --to 3.5-office-ui-fabric-react-test
+        displayName: Run rush test for 3.5-office-ui-fabric-react-test

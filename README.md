@@ -16,6 +16,7 @@ Below is the set of TypeScript versions available for validation:
 - 3.2
 - 3.3
 - 3.4
+- 3.5
 
 ## Test locally
 
