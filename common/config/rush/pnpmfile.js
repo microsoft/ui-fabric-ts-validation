@@ -29,10 +29,10 @@ module.exports = {
  */
 function readPackage(packageJson, context) {
 
-  // // The karma types have a missing dependency on typings from the log4js package.
-  // if (packageJson.name === '@types/karma') {
-  //  context.log('Fixed up dependencies for @types/karma');
-  //  packageJson.dependencies['log4js'] = '0.6.38';
+  // Synchronize @types/react and @types/react-dom with office-ui-fabric-react
+  // if (packageJson.name.includes('office-ui-fabric-react-test')) {
+    // packageJson.dependencies['@types/react'] = process.env.TYPES_REACT_VERSION;
+    // packageJson.dependencies['@types/react-dom'] = process.env.TYPES_REACT_DOM_VERSION;
   // }
 
   return packageJson;
