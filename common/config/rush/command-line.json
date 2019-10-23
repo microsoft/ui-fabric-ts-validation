@@ -22,6 +22,15 @@
       "safeForSimultaneousRushProcesses": false,
       "enableParallelism": true,
       "ignoreMissingScript": false
+    },
+    {
+      "commandKind": "bulk",
+      "name": "update-react-types",
+      "summary": "Syncs @types/react and @types/react-dom with office-ui-fabric-react",
+      "description": "Syncs @types/react and @types/react-dom with office-ui-fabric-react.",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreMissingScript": true
     }
   ],
   "parameters": []
